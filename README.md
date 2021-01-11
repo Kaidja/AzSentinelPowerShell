@@ -6,4 +6,4 @@ Azure Sentinel PowerShell cmdlets
 
 <b>Azure Sentinel Analytics Rules with Data Sources.xlsx</b> lists all the Analytics Rule Templates that can be enabled.
 
-You can download the incident management ebook from here - https://lakeforestconsulting.com/azuresentinelmanagementpowershellebook/
+You can download the ebook from here - https://lakeforestconsulting.com/azuresentinelmanagementpowershellebook/

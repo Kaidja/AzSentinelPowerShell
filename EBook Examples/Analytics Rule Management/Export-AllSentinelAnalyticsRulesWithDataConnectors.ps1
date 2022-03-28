@@ -27,6 +27,6 @@ foreach($Rule in $Rules){
     $RuleObject | ConvertTo-Csv -OutVariable RuleObjectCSV -NoTypeInformation -Delimiter ";" |Out-Null
 
     $RuleObjectCSV[1..($RuleObjectCSV.count - 1)] | 
-        ForEach-Object {Add-Content -Value $_ -Path "C:\Users\KaidoJärvemets\OneDrive - LakeForest Consulting\Desktop\AzSentinel\AzureSentinelAnalyticsRulesBasicDetails2.csv"}
+        ForEach-Object {Add-Content -Value $_ -Path "C:\AzureSentinelAnalyticsRulesBasicDetails2.csv"}
     
 }

@@ -1,6 +1,6 @@
 $AzureSentinelWorkSpaceInfo = @{
-    ResourceGroupName = "PROD-IT-AZ-SECURITY-MGMT-WE"
-    WorkspaceName = "PROD-IT-LOG-ANALYTICS-WE"
+    ResourceGroupName = "RG-PROD-IT-AZ-MANAGEMENT-TIER-0-WE"
+    WorkspaceName = "LF-TIER-0-LOG-ANALYTICS-WE"
 }
 
 $Rules = Get-AzSentinelAlertRuleTemplate @AzureSentinelWorkSpaceInfo
